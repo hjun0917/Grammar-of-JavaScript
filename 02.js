@@ -32,6 +32,3 @@ console.log(num5);
 // 1-6. -Infinity(무한대)
 let num6 = -1 / 0;
 console.log(num6);
-
-// 2. 문자 : string(문자열 = 문자의 나열)
-// ' ' = " ", 따옴표나 큰따옴표로 감싸야 주어야한다.
