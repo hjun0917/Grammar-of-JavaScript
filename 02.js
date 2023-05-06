@@ -29,6 +29,6 @@ console.log(num4); // NaN : Not a Number
 let num5 = 1 / 0;
 console.log(num5);
 
-// 1-6. -Infinity(무한대)
+// 1-6. - Infinity(무한대)
 let num6 = -1 / 0;
 console.log(num6);
