@@ -4,6 +4,7 @@
 
 // 1. 암시적 형 변환
 // 1-1. 문자열
+// ㄴ + 연산자와 함께 문자열과 다른 데이터 타입이 만나면 문자열이 우선시 된다.
 let result1 = 1 + "2";
 console.log(result1); // 12
 console.log(typeof result1); // String
@@ -25,7 +26,7 @@ console.log(result5); // [object Object]1
 console.log(typeof result5); // String
 
 // 1-2. 숫자
-// 더하기 연산자가 아닌 연사자는 숫자를 우선시한다.
+// 더하기 연산자가 아닌 연산자는 숫자를 우선시한다.
 let result6 = "12" - 2;
 console.log(result6); // 10
 console.log(typeof result6); // Number
