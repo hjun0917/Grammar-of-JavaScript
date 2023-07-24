@@ -22,22 +22,22 @@ console.log(c);
 // (2) arrow function
 
 // 함수 선언문
-function add () {
-
-}
+function add() {}
 
 // 함수 표현식
-var add = function () {
-
-}
+var add = function () {};
 
 var add = () => {
     return 1;
-}
+};
 
 var add = () => 1;
 
-var add = x => 1;
+var add = (x) => 1;
 
 // (3) 삼항 연산자
 // condition ? true인 경우 : false인 경우;
+
+let num = 10;
+let result = num === 1 ? "참" : "거짓";
+console.log(result);
