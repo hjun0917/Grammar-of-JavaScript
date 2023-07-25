@@ -38,3 +38,6 @@ console.log(myMap.size);
 // 특정 key의 존재 여부, key 기반 검색
 console.log(myMap.has(3)); // true
 console.log(myMap.has(4)); // false
+// 삭제
+myMap.delete(1);
+console.log(myMap.entries());
