@@ -28,3 +28,19 @@ var newArr = [10,20,30].map(function(currentValue, index) { // 매개변수로 �
     return currentValue+3;
 });
 console.log(newArr);
+
+var obj = {
+    vals : [1,2,3],
+    logValues : function (v, i) {
+        console.log(">>> test Start");
+        if (this === global) {
+            console.log("this is global!!!");
+            console.losg(v, i);
+        } else {
+            console.losg(v, i);
+        }
+        console.log(">>> test End");
+    }
+}
+
+[4,5,6].forEach(obj.logValues)
